@@ -56,8 +56,6 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ynyang94/ynyang94.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Contact
-Email:yy94 at rice dot edu
-
-[Linkedin](https://www.linkedin.com/in/yufeng-yang-713661176/)
-
+Email:yy94 at rice dot edu \
+[Linkedin](https://www.linkedin.com/in/yufeng-yang-713661176/) \
 [Twitter](https://twitter.com/yuengivan1)
