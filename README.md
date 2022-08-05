@@ -5,10 +5,23 @@ Hi! I am Yufeng Yang (杨钰峰), a second year master student majored in Comput
 My research insterests lie in the interdisciplinary area of optimization, statistics and machine learning. In future, I want to build efficient optimization/learning algorithms (with strong convergence guarantee, good generalization capability etc.) for moderen machine learning models. I have instersts in optimization/learning problems arised in Federated Learning, Deep Learning, Reinforcement Learning and Adversarial Robustness. I really want to make the efficient optimization/learning algorithms have real impact in these application areas.
 
 ### Research Experience
-- Distributed Optimization and Control Lab, Department of Electronic and Computer Engineering, Rice University(2022.4- )
+- Distributed Optimization and Control Lab, Department of Electronic and Computer Engineering, Rice University(2022.4- ) 
+_Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_
 
 - [Shenzhen Insititute of Artificial Intelligence and Robotics for Society](https://airs.cuhk.edu.cn)(2020.4-2021.1)
+_Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)
 
+### Academic Services
+- Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_
+
+### Papers
+
+### Presentation & Notes
+-Second Order Methods in Federated Learning
+1.[Slides for Federated NL](https://drive.google.com/file/d/1EESizX2LgV3slTRxLc0wVLYZW4AghSjf/view?usp=sharing)
+2.[Slides for Newton-3PC] (https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
+-Cubic Regularization
+To be Continued..
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
