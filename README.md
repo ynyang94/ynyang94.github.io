@@ -14,7 +14,7 @@ _Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_\
 Modify and fuse generative models with several unsupervised learning algorithms to do anomaly detection on real bottle images provided by San-Jiu pharmaceutical company.
 
 ### Academic Services
-- Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_\ (_2022.5-_)
+- Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_ (_2022.5-_)\
 Report and discuss recent papers in the area of federated optimization, bilevel optimization and non-convex optimization. For presentation slides, please check in the **presentation & notes** part.
 
 ### Papers
