@@ -57,5 +57,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Contact
 Email:yy94 at rice dot edu
+
 [Linkedin](https://www.linkedin.com/in/yufeng-yang-713661176/)
+
 [Twitter](https://twitter.com/yuengivan1)
