@@ -6,9 +6,11 @@ My research insterests lie in the interdisciplinary area of optimization, statis
 
 ### Research Experience
 - Distributed Optimization and Control Lab, Department of Electronic and Computer Engineering, Rice University(2022.4- ) 
+
 _Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_
 
 - [Shenzhen Insititute of Artificial Intelligence and Robotics for Society](https://airs.cuhk.edu.cn)(2020.4-2021.1)
+
 _Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_
 
 ### Academic Services
@@ -20,6 +22,7 @@ _Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_
 -Second Order Methods in Federated Learning
 
 1.[Slides for Federated NL](https://drive.google.com/file/d/1EESizX2LgV3slTRxLc0wVLYZW4AghSjf/view?usp=sharing)
+
 2.[Slides for Newton-3PC] (https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
 
 -Cubic Regularization
