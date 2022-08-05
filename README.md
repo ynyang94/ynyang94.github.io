@@ -1,15 +1,17 @@
 ## Welcome to My Pages!
-Hi! I am Yufeng Yang (杨钰峰), a second year master student majored in Computational Science and Engineering at **[Rice University](https://cmor.rice.edu/people/graduate-students)**. Previously, I obtain my bachelor degree in Applied Mathematics at **[Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en)**. I am now preparing **2023 fall phd application**. You can check **my [CV](https://drive.google.com/file/d/1kXBxlil43wQlDyrccq3WaHxPMDmmrarw/view?usp=sharing) here**. 
+Hi! I am Yufeng Yang (杨钰峰), a second year master student majored in Computational Science and Engineering at **[Rice University](https://cmor.rice.edu/people/graduate-students)**. Previously, I obtained my bachelor degree in Applied Mathematics at **[Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en)**. I am now preparing **2023 fall phd application**. You can check **my [CV](https://drive.google.com/file/d/1kXBxlil43wQlDyrccq3WaHxPMDmmrarw/view?usp=sharing) here**. 
 
 ### Research Insterests
 My research insterests lie in the interdisciplinary area of **optimization, statistics and machine learning**. In future, I want to build efficient optimization/learning algorithms (with strong convergence guarantee, good generalization capability etc.) for moderen machine learning models. I have instersts in optimization/learning problems arised in Federated Learning, Deep Learning, Reinforcement Learning and Adversarial Robustness. I really want to make the efficient optimization/learning algorithms have real impact in these application areas.
 
 ### Research Experience
 - Distributed Optimization and Control Lab, Department of Electronic and Computer Engineering, Rice University(2022.4- ) \
-_Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_
-
+_Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_\
+Review, develop and analyze distributed ways for solving cubic regularization problems.Test their performance on distributed machine learning models.\
+[code]()
 - [Shenzhen Insititute of Artificial Intelligence and Robotics for Society](https://airs.cuhk.edu.cn)(2020.4-2021.1)\
-_Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_
+_Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_\
+Modify and fuse generative models with several unsupervised learning algorithms to do anomaly detection on real bottle images provided by San-Jiu pharmaceutical company.
 
 ### Academic Services
 - Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_\
