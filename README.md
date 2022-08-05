@@ -23,7 +23,7 @@ _Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_
 
 1.[Slides for Federated NL](https://drive.google.com/file/d/1EESizX2LgV3slTRxLc0wVLYZW4AghSjf/view?usp=sharing)
 
-2.[Slides for Newton-3PC] (https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
+2.[Slides for Newton-3PC](https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
 
 -Cubic Regularization
 To be Continued..
