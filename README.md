@@ -9,7 +9,7 @@ My research insterests lie in the interdisciplinary area of optimization, statis
 _Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_
 
 - [Shenzhen Insititute of Artificial Intelligence and Robotics for Society](https://airs.cuhk.edu.cn)(2020.4-2021.1)
-_Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)
+_Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_
 
 ### Academic Services
 - Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_
@@ -18,8 +18,10 @@ _Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)
 
 ### Presentation & Notes
 -Second Order Methods in Federated Learning
+
 1.[Slides for Federated NL](https://drive.google.com/file/d/1EESizX2LgV3slTRxLc0wVLYZW4AghSjf/view?usp=sharing)
 2.[Slides for Newton-3PC] (https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
+
 -Cubic Regularization
 To be Continued..
 
