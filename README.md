@@ -1,5 +1,5 @@
 ## Welcome to My Pages!
-###Introducation
+### Introducation
 Hi! I am Yufeng Yang (杨钰峰), a second year master student majored in Computational Science and Engineering at [Rice University](https://cmor.rice.edu/people/graduate-students). Previously, I obtain my bachelor degree in Applied Mathematics at [Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). I am now preparing 2023 fall phd application. You can check my [CV](https://drive.google.com/file/d/1kXBxlil43wQlDyrccq3WaHxPMDmmrarw/view?usp=sharing) here
 
 My research insterests lie in the interdisciplinary area of optimization and machine learning. In future, I want to build efficient optimization/learning algorithms (with strong convergence guarantee, good generalization capability etc.) for moderen machine learning models. I have instersts in optimization/learning problems arised in Federated Learning, Adversarial Robustness and Reinforcement Learning. I really want to make the efficient optimization/learning algorithms have real impact in these application area.
