@@ -12,7 +12,8 @@ _Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_
 _Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_
 
 ### Academic Services
-- Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_
+- Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_\
+Report and discuss recent papers in the area of federated optimization, bilevel optimization and non-convex optimization. For presentation slides, please check in the **presentation & notes** part.
 
 ### Papers
 -[Literature Review for Neural Network Training and Convex Optimization](https://drive.google.com/file/d/1Z0JATf-Sc3Vr2H9IvcnMT9SX-lv0IxpX/view?usp=sharing)\
