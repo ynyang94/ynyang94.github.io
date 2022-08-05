@@ -1,10 +1,7 @@
-name: Yufeng Yang
+title: Yufeng Yang
 description: Personal Website
-theme: jekyll-theme-dinky
-
-footer-links:
-  email: yy94@rice.edu
+social-network-links:
+  email: "yy94@rice.edu"
   github: ynyang94
   twitter: yuengivan1
- 
-
+theme: jekyll-theme-dinky
