@@ -36,7 +36,7 @@ Implement several SOTA methods in supervised learning: KNN, soft-max regression,
 
 -Value Function Approximation: Online Learning or Deep Neural Networks?
 Simulate a MDP process for a synthetic perishable product inventory problem.\
-Use TD(0) methods and deep neural network (with one-hot-encoding) to estimate the value function.\
+Use TD(0) methods and deep neural network (with one-hot-encoding) to estimate the value function.
 
 ### Presentation & Notes
 -Second Order Methods in Federated Learning \
