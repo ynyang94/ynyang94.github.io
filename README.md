@@ -15,14 +15,18 @@ _Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_
 - Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_
 
 ### Papers
+-[Literature Review for Neural Network Training and Convex Optimization](https://drive.google.com/file/d/1Z0JATf-Sc3Vr2H9IvcnMT9SX-lv0IxpX/view?usp=sharing)\
+```
+An Overview of SOTA methods for using convex optimization technique to analyze neural networks, such as convex relxation on training objective function, frank-wolfe algorithms for training neural networks, using duality to transform optimization problem into a convex optimization problem etc.
+```
+
 
 ### Presentation & Notes
 -Second Order Methods in Federated Learning \
 1.[Slides for Federated NL](https://drive.google.com/file/d/1EESizX2LgV3slTRxLc0wVLYZW4AghSjf/view?usp=sharing)\
 2.[Slides for Newton-3PC](https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
 
--Cubic Regularization
-
+-Cubic Regularization\
 To be Continued..
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
