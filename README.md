@@ -1,5 +1,5 @@
 ## Welcome to My Pages!
-Hi! I am Yufeng Yang (杨钰峰), a second year master student majored in Computational Science and Engineering at **[Rice University](https://cmor.rice.edu/people/graduate-students)**. Previously, I obtained my bachelor degree in Applied Mathematics at **[Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en)**. I am now preparing **2023 fall phd application**. You can check **my [CV](https://drive.google.com/file/d/1kXBxlil43wQlDyrccq3WaHxPMDmmrarw/view?usp=sharing) here**. 
+Hi! I am Yufeng Yang (杨钰峰), a second year master student majored in Computational Science and Engineering at **[Rice University](https://cmor.rice.edu/people/graduate-students)**. Previously, I obtained my bachelor degree in Applied Mathematics at **[Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en)**. I am now preparing **2023 fall phd application**. You can check **my [CV](https://drive.google.com/file/d/13Z8h0XCtyIhpFtuPFYVbMlOQ5ercm81G/view?usp=sharing) here**. 
 
 ### Research Insterests
 My research insterests lie in the interdisciplinary area of **optimization, statistics and machine learning**. In future, I want to build efficient optimization/learning algorithms (with strong convergence guarantee, good generalization capability etc.) for moderen machine learning models. I have instersts in optimization/learning problems arised in Federated Learning, Deep Learning, Reinforcement Learning and Adversarial Robustness. I really want to make the efficient optimization/learning algorithms have real impact in these application areas.
@@ -16,6 +16,8 @@ Modify and fuse generative models with several unsupervised learning algorithms 
 ### Academic Services
 - Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_ (_2022.5-_)\
 Report and discuss recent papers in the area of federated optimization, bilevel optimization and non-convex optimization. For presentation slides, please check in the **presentation & notes** part.
+-Teaching Assistant for ELEC 241: Fundament of Electrical Engineering I\
+Grader of [ELEC 241]( https://elec241.rice.edu ). This course introduces the basics of System Theory, Information theory, Signal Processing and Circut theory.
 
 ### Papers
 -[Literature Review for Neural Network Training and Convex Optimization (Pre-print)](https://drive.google.com/file/d/1Z0JATf-Sc3Vr2H9IvcnMT9SX-lv0IxpX/view?usp=sharing)\
@@ -44,7 +46,7 @@ Use TD(0) methods and deep neural network (with one-hot-encoding) to estimate th
 2.[Slides for Newton-3PC](https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
 
 -Cubic Regularization\
-To be Continued..
+[Slides for Cubic Regularization](https://drive.google.com/file/d/17yxWlKL-p1FxxF0U6ONwACp_NMi8FIEk/view?usp=sharing)
 
 ### Contact
 Email:yy94 at rice dot edu \
