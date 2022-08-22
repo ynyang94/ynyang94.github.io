@@ -15,8 +15,8 @@ Modify and fuse generative models with several unsupervised learning algorithms 
 
 ### Academic Services
 - Weekly Seminar on Optimization Led by _[Prof.Shiqian Ma](https://sqma.rice.edu)_ (_2022.5-_)\
-Report and discuss recent papers in the area of federated optimization, bilevel optimization and non-convex optimization. For presentation slides, please check in the **presentation & notes** part.
--Teaching Assistant for ELEC 241: Fundament of Electrical Engineering I\
+Report and discuss recent papers in the area of federated optimization, bilevel optimization and non-convex optimization. For presentation slides, please check in the **presentation & notes** part.\
+- Teaching Assistant for ELEC 241: Fundament of Electrical Engineering I\
 Grader of [ELEC 241]( https://elec241.rice.edu ). This course introduces the basics of System Theory, Information theory, Signal Processing and Circut theory.
 
 ### Papers
