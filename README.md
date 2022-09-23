@@ -43,10 +43,13 @@ Use TD(0) methods and deep neural network (with one-hot-encoding) to estimate th
 ### Presentation & Notes
 -Second Order Methods in Federated Learning \
 1.[Slides for Federated NL](https://drive.google.com/file/d/1EESizX2LgV3slTRxLc0wVLYZW4AghSjf/view?usp=sharing)\
-2.[Slides for Newton-3PC](https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)
+2.[Slides for Newton-3PC](https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)\
+3.[Slides for Fed-ADMM](https://drive.google.com/file/d/1Y9tgEiwPLuu032MPXA45bx-WKdhMQcxZ/view?usp=sharing)
 
 -Cubic Regularization\
 [Slides for Cubic Regularization](https://drive.google.com/file/d/17yxWlKL-p1FxxF0U6ONwACp_NMi8FIEk/view?usp=sharing)
+
+-Trustworthy Machine Learning
 
 ### Contact
 Email:yy94 at rice dot edu \
