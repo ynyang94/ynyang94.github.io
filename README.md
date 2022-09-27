@@ -23,7 +23,7 @@ Grader of [ELEC 241]( https://elec241.rice.edu ). This course introduces the bas
 -[Literature Review for Neural Network Training and Convex Optimization (Pre-print)](https://drive.google.com/file/d/1Z0JATf-Sc3Vr2H9IvcnMT9SX-lv0IxpX/view?usp=sharing)\
 An Overview of SOTA methods for using convex optimization technique to analyze neural networks, such as convex relxation on training objective function, frank-wolfe algorithms for training neural networks, using duality to transform optimization problem into a convex optimization problem etc.
 
--[Cubic Regularization: Distributed Algorithm and Convergence Analysis](On going)
+-[Cubic Regularization: Distributed Algorithm and Convergence Analysis(On-going)]
 
 ### Projects
 -Active Set Method for Quadratic Programming Problem
