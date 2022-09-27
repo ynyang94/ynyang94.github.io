@@ -6,7 +6,7 @@ My research insterests lie in the interdisciplinary area of **optimization, stat
 
 ### Research Experience
 - Distributed Optimization and Control Lab, Department of Electronic and Computer Engineering, Rice University(_2022.4- _) \
-_Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_\
+Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_\
 Review, develop and analyze distributed ways for solving cubic regularization problems.Test their performance on distributed machine learning models.\
 \[[code]()\]
 - [Shenzhen Insititute of Artificial Intelligence and Robotics for Society](https://airs.cuhk.edu.cn)(_2020.4-2021.1_)\
