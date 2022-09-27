@@ -6,11 +6,11 @@ My research insterests lie in the interdisciplinary area of **optimization, stat
 
 ### Research Experience
 - Distributed Optimization and Control Lab, Department of Electronic and Computer Engineering, Rice University(_2022.4- _) \
-Advisor:[Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_\
+Advisor: [Prof.Cesar. A.Uribe](https://cauribe.rice.edu)_\
 Review, develop and analyze distributed ways for solving cubic regularization problems.Test their performance on distributed machine learning models.\
 \[[code]()\]
 - [Shenzhen Insititute of Artificial Intelligence and Robotics for Society](https://airs.cuhk.edu.cn)(_2020.4-2021.1_)\
-_Advisor:[Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_\
+_Advisor: [Dr.Xuan Xia](https://dblp.org/pid/227/5087.html)_\
 Modify and fuse generative models with several unsupervised learning algorithms to do anomaly detection on real bottle images provided by San-Jiu pharmaceutical company.
 
 ### Academic Services
@@ -41,7 +41,7 @@ Simulate a MDP process for a synthetic perishable product inventory problem.\
 Use TD(0) methods and deep neural network (with one-hot-encoding) to estimate the value function.
 
 ### Presentation & Notes
--Second Order Methods in Federated Learning \
+-Optimization Methods in Federated Learning \
 1.[Slides for Federated NL](https://drive.google.com/file/d/1EESizX2LgV3slTRxLc0wVLYZW4AghSjf/view?usp=sharing)\
 2.[Slides for Newton-3PC](https://drive.google.com/file/d/1zjqWy1-gHiAY9wuT8lRcFuhq3G_Ka3Cv/view?usp=sharing)\
 3.[Slides for Fed-ADMM](https://drive.google.com/file/d/1Y9tgEiwPLuu032MPXA45bx-WKdhMQcxZ/view?usp=sharing)
@@ -49,7 +49,7 @@ Use TD(0) methods and deep neural network (with one-hot-encoding) to estimate th
 -Cubic Regularization\
 [Slides for Cubic Regularization](https://drive.google.com/file/d/17yxWlKL-p1FxxF0U6ONwACp_NMi8FIEk/view?usp=sharing)
 
--Trustworthy Machine Learning
+-Adversarial Machine Learning
 
 ### Contact
 Email:yy94 at rice dot edu \
