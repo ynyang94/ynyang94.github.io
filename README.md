@@ -49,7 +49,7 @@ Use TD(0) methods and deep neural network (with one-hot-encoding) to estimate th
 -Cubic Regularization\
 [Slides for Cubic Regularization](https://drive.google.com/file/d/17yxWlKL-p1FxxF0U6ONwACp_NMi8FIEk/view?usp=sharing)
 
--Adversarial Machine Learning
+-Adversarial Machine Learning\
 [Slides for Deep Defense](https://drive.google.com/file/d/1ryqKwj63LNCKd1XYWx2cE4MYZc62MHNu/view?usp=sharing)
 
 ### Contact
