@@ -1,4 +1,4 @@
-## Welcome to My Pages!
+## Welcome to My Webpage!
 Hi all! My name is Yufeng Yang. I'm currently a Ph.D. Student at University of Utah, advised by **[Yi Zhou](https://sites.google.com/site/yizhouhomepage/home)**. \
 Previously I obtained my master degree at Rice University and Bachelor degree at CUHK(SZ). Both are applied math related degrees.
 My general research interests spans from optimization to various foundation topics in Machine Learning. This inclues but not limit to design stochastic algorithms for new machine learning paradigms;
