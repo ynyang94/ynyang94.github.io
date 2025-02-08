@@ -3,12 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
-title: "Home"
+title: "Howdy"
 author_profile: true  # This enables the sidebar!
 ---
 
 ## About Me
-🤗 Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a Ph.D. student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). My general research interests revolve around the **foundations of machine learning**.  Specially, I'm interested in the following fields:
+🤗 My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a Ph.D. student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). My general research interests revolve around the **foundations of machine learning**.  Specially, I'm interested in the following fields:
 
 > **Stochastic Optimization**: Algorithm design and convergence analysis for modern machine learning paradigms. 
 
@@ -16,16 +16,20 @@ author_profile: true  # This enables the sidebar!
 
 > **Reinforcement Learning Theory**, including distributional RL, multi-agent RL and RL reasoning for LLMs. 
 
-## Papers
-📄Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization \[arXiv\]\[code\], Y. Yang, Y. Zhou, Z. Lu, Submitted; \[ [short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
+## 📄Papers
+Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization \[arXiv\]\[code\], Y. Yang, Y. Zhou, Z. Lu, Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
 
-📄Independent Normalized Stochastic Gradient Descent For Generalized Smooth Non-Convex Optimization\[ [arxiv](https://arxiv.org/pdf/2410.14054)\] \[code\], Y. Yang, E. Tripp, Y. Sun, S. Zou, Y. Zhou, Submitted.
+Independent Normalized Stochastic Gradient Descent For Generalized Smooth Non-Convex Optimization\[[arxiv](https://arxiv.org/pdf/2410.14054)\] \[code\], Y. Yang, E. Tripp, Y. Sun, S. Zou, Y. Zhou, Submitted.
 
 ## 📚Education
 -- **Ph.D.** in Computer Science, Texas A&M University, 2024-now
+
 -- **Ph.D.**(Transfer Out) in Electrical and Computer Engineering, University of Utah, 2023-2024
+
 -- **M.S.** in Computational Science and Engineering, Rice University
+
 -- **B.S.** in Applied Math, the Chinese University of Hong Kong (Shenzhen)
+
 Prior to University, I grew up in Jiayuguan, Gansu Province in mainland China.
 
 ## Academic Services
