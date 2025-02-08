@@ -4,6 +4,7 @@
 
 layout: single
 title: ""
+author_profile: true
 ---
 ## About Me
 🤗 My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a Ph.D. student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). My general research interests revolve around the **foundations of machine learning**.  Specially, I'm interested in the following fields:
