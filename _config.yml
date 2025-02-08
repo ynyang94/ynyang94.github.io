@@ -26,7 +26,7 @@ defaults:
         nav: "main"
 
 title: "Yufeng Yang"
-email: "mailto:yufeng.yang@tamu.edu"
+email: "yufeng.yang@tamu.edu"
 description: >-
   PhD Student at Texas A&M University, focusing on Large-Scale Optimization, Deep Learning, and Reinforcement Learning.
 baseurl: ""  # Leave this empty for GitHub Pages
