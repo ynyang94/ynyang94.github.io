@@ -49,12 +49,12 @@ author:
   name: "Yufeng Yang"
   avatar: "/assets/images/DwlXGmuX4AA__rf.jpg"
   bio: "PhD Student at Texas A&M University"
-  location: "Texas, United States"
-  email: "yufeng.yang@tamu.edu"
+  location: "Peterson Building, 345"
+  email: "mailto:yufeng.yang@tamu.edu"
   google_scholar: "https://scholar.google.com/citations?hl=en&user=oK2fHscAAAAJ"
-  twitter: "https://twitter.com/yufengyang1999"
-  github: "https://github.com/ynyang94"
-  linkedin: "https://www.linkedin.com/in/yufeng-yang-713661176"
+  twitter: "yufengyang1999"
+  github: "ynyang94"
+  linkedin: "yufeng-yang-713661176"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
