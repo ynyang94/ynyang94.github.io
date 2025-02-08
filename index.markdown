@@ -17,8 +17,7 @@ author_profile: true  # This enables the sidebar!
 > **Reinforcement Learning Theory**, including distributional RL, multi-agent RL and RL reasoning for LLMs. 
 
 ## News
-<div style="height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
-*TBD*
+<div style="height: 20px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
 </div>
 
 ## 📄Papers
