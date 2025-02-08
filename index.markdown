@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
-title: "Howdy"
 author_profile: true  # This enables the sidebar!
 ---
 
@@ -16,10 +15,16 @@ author_profile: true  # This enables the sidebar!
 
 > **Reinforcement Learning Theory**, including distributional RL, multi-agent RL and RL reasoning for LLMs. 
 
-## 📄Papers
-Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization \[arXiv\]\[code\], Y. Yang, Y. Zhou, Z. Lu, Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
+## News
+<div style="height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
+  
+  - Item 1  Attend Neurips 2024.
+</div>
 
-Independent Normalized Stochastic Gradient Descent For Generalized Smooth Non-Convex Optimization\[[arxiv](https://arxiv.org/pdf/2410.14054)\] \[code\], Y. Yang, E. Tripp, Y. Sun, S. Zou, Y. Zhou, Submitted.
+## 📄Papers
+**Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization**\[arXiv\]\[code\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
+
+**Independent Normalized Stochastic Gradient Descent For Generalized Smooth Non-Convex Optimization**\[[arxiv](https://arxiv.org/pdf/2410.14054)\] \[code\], Submitted.
 
 ## 📚Education
 -- **Ph.D.** in Computer Science, Texas A&M University, 2024-now
