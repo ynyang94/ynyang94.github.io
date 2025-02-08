@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
+title: ""
 author_profile: true  # This enables the sidebar!
 ---
 
@@ -17,14 +18,13 @@ author_profile: true  # This enables the sidebar!
 
 ## News
 <div style="height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
-  
-  - Item 1  Attend Neurips 2024.
+*TBD*
 </div>
 
 ## 📄Papers
-**Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization**\[arXiv\]\[code\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
+*Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[arXiv\]\[code\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
 
-**Independent Normalized Stochastic Gradient Descent For Generalized Smooth Non-Convex Optimization**\[[arxiv](https://arxiv.org/pdf/2410.14054)\] \[code\], Submitted.
+*Independent Normalized Stochastic Gradient Descent For Generalized Smooth Non-Convex Optimization*\[[arxiv](https://arxiv.org/pdf/2410.14054)\] \[code\], Submitted.
 
 ## 📚Education
 -- **Ph.D.** in Computer Science, Texas A&M University, 2024-now
@@ -43,4 +43,5 @@ Prior to University, I grew up in Jiayuguan, Gansu Province in mainland China.
 ## Teaching
 -- At Rice: ELEC241, Fundamentals of Electrical Engineering I (Role: Grader).
 
-
+<!-- ClustrMaps Tracker -->
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Mn46VZvuelQyX06Ut7_UBUIgSG5O9ztIhNIRwUwdmhU&cl=ffffff&w=a"></script>
