@@ -20,7 +20,7 @@ author_profile: true
 </div>
 
 ## 📄Papers
-*Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[arXiv\]\[code\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
+*Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[arXiv(https://arxiv.org/abs/2503.22923)\]\[code\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
 
 *Independent Normalized Stochastic Gradient Descent For Generalized Smooth Non-Convex Optimization*\[[arxiv](https://arxiv.org/pdf/2410.14054)\] \[code\], Submitted.
 
