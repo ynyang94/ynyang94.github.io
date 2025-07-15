@@ -19,7 +19,7 @@ If you believe our research interests align, feel free to reach out to me for po
 
 
 ## News
-<div style="height: 20px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
+<div style="height: 50px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
 <li><strong>July 2025:</strong> Attend ICCOPT 2025, USC, Los Angeles and present our work IAN-SGD.</li>
 <li><strong>Dec 2024:</strong> Attend NeurIPS 2024, Vancouver, CA and present our work on Sinkhorn DRO.</li>
 </div>
