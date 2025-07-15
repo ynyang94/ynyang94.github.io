@@ -20,9 +20,10 @@ If you believe our research interests align, feel free to reach out to me for po
 
 ## News
 <div style="height: 20px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
-</div>
 <li><strong>July 2025:</strong> Attend ICCOPT 2025, USC, Los Angeles and present our work IAN-SGD.</li>
 <li><strong>Dec 2024:</strong> Attend NeurIPS 2024, Vancouver, CA and present our work on Sinkhorn DRO.</li>
+</div>
+
 
 ## 📄Papers
 *Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[[arXiv](https://arxiv.org/abs/2503.22923)\]\[[code](https://github.com/ynyang94/GeneralSinkhorn-Regularized-DRO)\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
