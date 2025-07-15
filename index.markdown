@@ -39,7 +39,8 @@ If you believe our research interests align, feel free to reach out to me for po
 
 -- **B.S.** in Applied Math (SSE), Chinese University of Hong Kong(Shenzhen), 2017-2021
 
-Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall.
+Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall. My family moved to Gansu Province as part of the "Westward Migration" program of the PRC during cold war, in the late 1950s. You can read our story through [this article (in Chinese)](https://www.douban.com/note/858264779/?_i=2597242vjSc0rS).
+
 
 ## Academic Services
 -- Conference/Workshop Reviewer: AISTATS(2024), NeurIPS 2025 OPT workshop\
