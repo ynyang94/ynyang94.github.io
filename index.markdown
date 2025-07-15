@@ -31,9 +31,9 @@ If you believe our research interests align, feel free to reach out to me for po
 
 -- **Ph.D.**(Transfer Out) in Electrical and Computer Engineering, University of Utah, 2023-2024
 
--- **M.S.** in Computational Science and Engineering, Rice University
+-- **M.S.** in Computational Science and Engineering, Rice University, 2021-2023
 
--- **B.S.** in Applied Math (SSE), Chinese University of Hong Kong(Shenzhen)
+-- **B.S.** in Applied Math (SSE), Chinese University of Hong Kong(Shenzhen), 2017-2021
 
 Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall.
 
