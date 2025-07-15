@@ -39,7 +39,7 @@ If you believe our research interests align, feel free to reach out to me for po
 Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall.
 
 ## Academic Services
--- Conference/Workshop Reviewer: AISTATS(2024), NeurIPS 2025 OPT workshop
+-- Conference/Workshop Reviewer: AISTATS(2024), NeurIPS 2025 OPT workshop\
 -- Journal Reviewer: Journal of Combinatorial Optimization
 
 ## Teaching
