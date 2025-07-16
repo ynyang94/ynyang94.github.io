@@ -19,7 +19,7 @@ If you believe our research interests align, feel free to reach out to me for po
 
 
 ## News
-<div style="height: 50px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
+<div style="height: 100px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
 <li><strong>July 2025:</strong> Attend ICCOPT 2025, USC, Los Angeles and present our work IAN-SGD.</li>
 <li><strong>Dec 2024:</strong> Attend NeurIPS 2024, Vancouver, CA and present our work on Sinkhorn DRO.</li>
 </div>
@@ -33,13 +33,13 @@ If you believe our research interests align, feel free to reach out to me for po
 ## 📚Education
 -- **Ph.D.** in Computer Science, Texas A&M University, 2024-now
 
--- **Ph.D.**(Transfer Out) in Electrical and Computer Engineering, University of Utah, 2023-2024
+-- **Ph.D.**(Transfer Out) in Electrical Engineering, University of Utah, 2023-2024
 
 -- **M.S.** in Computational Science and Engineering, Rice University, 2021-2023
 
 -- **B.S.** in Applied Math (SSE), Chinese University of Hong Kong(Shenzhen), 2017-2021
 
-Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall. My family moved here as part of the "Westward Migration" program of PRC during cold war, in the late 1950s. You can read our story through [this article](https://www.douban.com/note/858264779/?_i=2597242vjSc0rS)(in Chinese).
+Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall. My family moved here as part of the "Westward Migration" program of PRC during cold war, in the late 1950s. You can read our story through [this article](https://www.douban.com/note/858264779/?_i=2597242vjSc0rS) (in Chinese).
 
 
 ## Academic Services
