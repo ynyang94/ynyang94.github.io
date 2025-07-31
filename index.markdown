@@ -26,9 +26,9 @@ If you believe our research interests align, feel free to reach out to me for po
 
 
 ## 📄Papers
-*Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[[arXiv](https://arxiv.org/abs/2503.22923)\]\[[code](https://github.com/ynyang94/GeneralSinkhorn-Regularized-DRO)\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024.
+*Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[[arXiv](https://arxiv.org/abs/2503.22923)\], \[[code](https://github.com/ynyang94/GeneralSinkhorn-Regularized-DRO)\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024 \[[poster](https://ynyang94.github.io/my_presentation/NIPS_workshop_poster-2.pdf)\].
 
-*Adaptive Gradient Normalization and Independent Sampling for (Stochastic) Generalized-Smooth Optimization*\[[arxiv](https://arxiv.org/abs/2410.14054)\] \[[code](https://github.com/ynyang94/Gensmooth-IAN-SGD)\] \[[slides](https://ynyang94.github.io/my_presentation/ICCOPT2025_IAN_SGD-6.pdf)\], TMLR.
+*Adaptive Gradient Normalization and Independent Sampling for (Stochastic) Generalized-Smooth Optimization*\[[arxiv](https://arxiv.org/abs/2410.14054)\], \[[code](https://github.com/ynyang94/Gensmooth-IAN-SGD)\], \[[slides](https://ynyang94.github.io/my_presentation/ICCOPT2025_IAN_SGD-6.pdf)\], TMLR.
 
 ## 📚Education
 -- **Ph.D.** in Computer Science, Texas A&M University, 2024-now
