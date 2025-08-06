@@ -43,8 +43,9 @@ Prior to university, I grew up and finished my elementary education in Jiayuguan
 
 
 ## Academic Services
--- Conference/Workshop Reviewer: AISTATS(2024), NeurIPS 2025 OPT workshop\
--- Journal Reviewer: Journal of Combinatorial Optimization
+-- Conference: AISTATS\
+-- Journal Reviewer: Journal of Combinatorial Optimization; IEEE Transactions on Signal Processing\
+-- Workshop Reviewer: NeurIPS-OPT workshop
 
 ## Teaching
 -- At Rice: ELEC241, Fundamentals of Electrical Engineering I (Role: Grader).
