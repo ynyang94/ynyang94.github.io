@@ -15,7 +15,7 @@ Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a Ph.D
 
 > **Reinforcement Learning Theory and Post-Training of Agentic LLM** I am interested in reinforcement learning (RL) post-training methods, as well as theoretical aspects of RL, including distributional robust RL, multi-agent RL, and multi-objective RL.
 
-If you believe our research interests align, feel free to reach out to me for potential collaboration at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
+If you believe our research interests align, or want to know more about me, our research group, department and lives in College Station. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
 
 ## News
