@@ -13,7 +13,7 @@ Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a Ph.D
 
 > **Mathematics of Deep Learning**: In the era of large language models (LLMs), I am particularly interested in the mathematical insights behind preconditioned optimization methods—such as Muon(and shampoo) and Adam (and its variants)—as well as heuristics like learning rate scheduling and warm-up strategies. I am also passionate about exploring the mathematical foundations and mechanical interpretations of deep networks, especially for transformer-based LLMs, including phenomena such as transformer training dynamics, LLM grokking, in-context learning, and scaling laws.
 
-> **Reinforcement Learning Theory and Post-Training of Agentic LLM** I am interested in reinforcement learning (RL) post-training/alignment methods, especially evolving on-policy methods such as PPO, GPRO etc. I'm also intersted in RL-theory intersecting with stochastic optimization, including distributional RL, Multi-objective/agentic RL methods.
+> **Reinforcement Learning Theory and Post-Training of Agentic LLM** I am interested in reinforcement learning (RL) post-training/alignment methods, especially evolving on-policy methods such as PPO, GRPO etc. I'm also intersted in RL-theory intersecting with stochastic optimization, including distributional RL, Multi-objective/agentic RL methods.
 
 If you believe our research interests align, or want to know more about me, our research group, department and lives in College Station. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
