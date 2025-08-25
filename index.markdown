@@ -7,7 +7,7 @@ title: ""
 author_profile: true
 ---
 ## About Me
-Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a Ph.D. student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). My general research interests revolve around the **foundations of machine learning**.  Specially, I'm interested in the following fields:
+Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a third year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). My general research interests revolve around the **foundations of machine learning**.  Specially, I'm interested in the following fields:
 
 > **Stochastic Optimization**: I have been working on this topic since the beginning of my Ph.D. program. My research focuses on designing stochastic algorithms (typically first-order or zeroth-order methods) to solve tractable formulations inspired by large-scale machine learning, such as distributionally robust optimization (DRO), multi-objective optimization, and stochastic programming with heavy-tailed noise etc.
 
