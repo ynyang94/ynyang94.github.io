@@ -17,7 +17,7 @@ Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a thir
 
 If you believe our research interests align, or want to know more about me, our research group, department and lives in College Station. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
-<span style="color:red;">I'm actively looking for machine learning engineer, data science and quantative internship opportunities during 2026 summer (Due to visa policy, I have to limit job positions in USA, mainland China/Hong Kong SAR). Here is my breif \[(CV)(https://ynyang94.github.io/my_presentation/YufengYang_short_CV-3.pdf)\].  </span>
+<span style="color:red;"> **I’m actively looking for machine learning engineer, data science and quantitative internship opportunities during 2026 summer** (Due to visa policy, I have to limit job positions in USA, mainland China/Hong Kong SAR). Here is my brief [CV](https://ynyang94.github.io/my_presentation/YufengYang_short_CV-3.pdf).</span>
 
 
 ## News
