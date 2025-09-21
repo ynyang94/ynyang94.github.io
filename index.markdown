@@ -22,7 +22,7 @@ If you believe our research interests align, or want to know more about me, our 
 
 ## News
 <div style="height: 100px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
-<li><strong>Sep 2025:</strong> Attend Simons Workshop on Deep Learning Theory.</li>
+<li><strong>Sep 2025:</strong> Attend 2025 Mathematical and Scientific Foundations of Deep Learning Annual Meeting.</li>
 <li><strong>July 2025:</strong> Attend ICCOPT 2025, USC, Los Angeles and present our work IAN-SGD.</li>
 <li><strong>June 2025:</strong> Got my first long paper accepted by TMLR. Special thank for my collaborators and AFRL for their supervision and funding support during summer 2024. </li>
 <li><strong>March 2025:</strong> Pass fundamental exam marked as a "formal" starting point of my PhD journey.</li>
