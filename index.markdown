@@ -50,7 +50,7 @@ Prior to university, I grew up and finished my elementary education in Jiayuguan
 
 ## Academic Services
 -- Conference: AISTATS\
--- Journal Reviewer: Journal of Combinatorial Optimization; IEEE Transactions on Signal Processing\
+-- Journal Reviewer: Journal of Combinatorial Optimization; IEEE TSP; IEEE TPAMI\
 -- Workshop Reviewer: NeurIPS-OPT workshop
 
 ## Teaching
