@@ -16,7 +16,7 @@ Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a thir
 Furthermore, I am interested in emerging topics such as hardware-aware optimization and RL algorithms designed for large-scale GPU clusters, as well as the mechanistic interpretability of Large Language Models (LLMs).
 <span style="color:red">(Open for Collaboration)</span> If you believe our research interests align and want to collaborate with me. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
-<span style="color:red;"> **I’m actively looking for AI research scientist/engineer position internship starting at 26/27 summer**. Here is my brief [CV](https://ynyang94.github.io/my_presentation/YufengYang_short_CV-3.pdf).</span>
+<span style="color:red;"> **I’m actively looking for AI research scientist/engineer position internship starting at 26/27 summer**. Here is my brief [CV](https://ynyang94.github.io/my_presentation/YufengYang_short_CV.pdf).</span>
 
 
 ## News
