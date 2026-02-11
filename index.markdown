@@ -7,21 +7,21 @@ title: ""
 author_profile: true
 ---
 ## About Me
-Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a third year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). My general research interests revolve around the **foundations of machine learning**.  Specially, I'm interested in the following fields:
+Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a third year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). I leverage **foundational ML principles** to address the computational and algorithmic challenges arising from **large-scale machine learning**. My current and prospective research focuses on:
 
-> **Stochastic Optimization**: I have been working on this topic since the beginning of my Ph.D. program. My research focuses on designing stochastic algorithms (typically first-order or zeroth-order methods) to solve tractable formulations inspired by large-scale machine learning, such as distributionally robust optimization (DRO), multi-objective optimization, and stochastic programming with heavy-tailed noise etc.
+> **Distributionally Robust Optimization for ML**: Since the beginning of my Ph.D., my research has been driven by the challenges of distribution shifts in large-scale datasets. Specifically, I focus on ML training paradigms subject to distributional drift, utilizing optimization theory to convert loss formulations under uncertainty into tractable, solvable problems. I am particularly interested in bridging these frameworks to training scenarios such as **adversarial training, multi-task learning, Reinforcement Learning and LLM pre/post-training**.
 
-> **Mathematics of Deep Learning**: In the era of large language models (LLMs), I am particularly interested in the mathematical insights behind preconditioned optimization methods—such as Muon(and shampoo) and Adam (and its variants)—as well as heuristics like learning rate scheduling and warm-up strategies. I am also passionate about exploring the mathematical foundations and mechanical interpretations of deep networks, especially for transformer-based LLMs, including phenomena such as transformer training dynamics, LLM grokking, in-context learning, and scaling laws.
+> **Efficient first/zeroth-order Optimization Algorithm **: Modern modeling techniques—including sequential modeling (RNN and SSM variants), multi-modal learning, and on-policy RL often result in ill-conditioned geometric loss landscapes and heavy-tailed representation distributions. My research focuses on designing efficient **first and zeroth-order optimization** algorithms for these complex formulations, including **bi-level, compositional, and contextual dependent objectives**. I am dedicated to exploring relationship between *problem-dependent parameters, algorithmic structures (such as variance reduction, momentum, extrapolation, pre-conditioning) and the resulting convergence performance*.
 
-> **Reinforcement Learning Theory and Post-Training of Agentic LLM** I am interested in reinforcement learning (RL) post-training/alignment methods, especially evolving on-policy methods such as PPO, GRPO etc. I'm also intersted in RL-theory intersecting with stochastic optimization, including distributional RL, Multi-objective/agentic RL methods.
+Furthermore, I am interested in emerging topics such as hardware-aware optimization and RL algorithms designed for large-scale GPU clusters, as well as the mechanistic interpretability of Large Language Models (LLMs).
+<span style="color:red">(Open for Collaboration)</span> If you believe our research interests align and want to collaborate with me. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
-If you believe our research interests align, or want to know more about me, our research group, department and lives in College Station. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
-
-<span style="color:red;"> **I’m actively looking for machine learning engineer, data science and quantitative internship opportunities during 2026 summer**. Here is my brief [CV](https://ynyang94.github.io/my_presentation/YufengYang_short_CV-3.pdf).</span>
+<span style="color:red;"> **I’m actively looking for AI research scientist/engineer position internship starting at 26/27 summer**. Here is my brief [CV](https://ynyang94.github.io/my_presentation/YufengYang_short_CV-3.pdf).</span>
 
 
 ## News
 <div style="height: 100px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
+<li><strong>March 2026:</strong> Attend IOS at Atlanta,GA and give a talk on Sinkhorn DRO.</li>
 <li><strong>Sep 2025:</strong> Attend 2025 Mathematical and Scientific Foundations of Deep Learning Annual Meeting.</li>
 <li><strong>July 2025:</strong> Attend ICCOPT 2025, USC, Los Angeles and present our work IAN-SGD.</li>
 <li><strong>June 2025:</strong> Got my first long paper accepted by TMLR. Special thank for my collaborators and AFRL for their supervision and funding support during summer 2024. </li>
@@ -50,7 +50,7 @@ Prior to university, I grew up and finished my elementary education in Jiayuguan
 
 ## Academic Services
 -- Conference: AISTATS\
--- Journal Reviewer: Journal of Combinatorial Optimization; IEEE TSP; IEEE TPAMI\
+-- Journal Reviewer: IEEE TSP; IEEE TPAMI; Journal of Combinatorial Optimization;\
 -- Workshop Reviewer: NeurIPS-OPT workshop
 
 ## Teaching
