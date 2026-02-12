@@ -13,7 +13,7 @@ Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a thir
 
 > **Efficient first/zeroth-order Optimization Algorithm**: Modern modeling techniques—including sequential modeling (RNN and SSM variants), multi-modal learning, and on-policy RL often result in ill-conditioned geometric loss landscapes and heavy-tailed representation distributions. My research focuses on designing efficient **first and zeroth-order optimization** algorithms for these complex formulations, including **bi-level, compositional, and contextual dependent objectives**. I am dedicated to exploring relationship between *problem-dependent parameters, algorithmic structures (such as **learning rate scheduling, normalization/clipping, variance reduction, momentum/extrapolation, pre-conditioning etc**) and the resulting convergence performance*.
 
-Furthermore, I am interested in emerging topics such as system-aware optimization and RL algorithms tailored for large-scale GPU clusters. **My goal is to bridge foundational theory with AI infrastructure to maximize system-level performance**, alongside exploring the mechanistic interpretability of LLMs."
+Furthermore, I am interested in emerging topics such as system-aware optimization and RL algorithms tailored for large-scale GPU clusters. **My goal is to bridge foundational theory with AI infrastructure to maximize system-level performance**, alongside exploring the mechanistic interpretability of LLMs.
 
 <span style="color:red">**(Open for Collaboration)**</span> If you believe our research interests align and want to collaborate with me. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
