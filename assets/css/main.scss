@@ -1,0 +1,90 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+.activity-window {
+  height: 165px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 14px;
+  background: #fff;
+}
+
+.activity-window ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.activity-window li + li {
+  margin-top: 0.55rem;
+}
+
+.experience-chart {
+  margin: 0.5rem 0 1.5rem;
+  border-left: 3px solid #2f7dbd;
+  padding-left: 1rem;
+}
+
+.experience-chart__row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0.85rem;
+  align-items: start;
+}
+
+.experience-chart__period {
+  font-weight: 700;
+  color: #2f7dbd;
+}
+
+.experience-chart__content {
+  padding: 0.8rem 0.95rem;
+  border: 1px solid #d7e5f2;
+  border-radius: 8px;
+  background: #f7fafc;
+}
+
+.sidebar-widget {
+  margin-top: 1.5rem;
+}
+
+.sidebar-widget__title {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sidebar-widget__body {
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.sidebar-visitor-map .sidebar-widget__body {
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-visitor-map iframe,
+.sidebar-visitor-map canvas,
+.sidebar-visitor-map img {
+  max-width: 100% !important;
+}
+
+@media (max-width: 600px) {
+  .experience-chart__row {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+}
