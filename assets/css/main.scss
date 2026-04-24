@@ -8,6 +8,23 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select,
+textarea,
+.site-title,
+.greedy-nav a,
+.btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .activity-window {
   height: 165px;
   overflow-y: auto;
@@ -52,13 +69,13 @@ search: false
 }
 
 .sidebar-visitor-map {
-  width: 170px;
+  width: 80px;
   max-width: 100%;
   margin: 1.25rem auto 0;
 }
 
 .sidebar-visitor-map__frame {
-  min-height: 120px;
+  min-height: 60px;
   display: flex;
   justify-content: center;
   overflow: hidden;
