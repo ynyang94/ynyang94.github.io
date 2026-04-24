@@ -51,35 +51,26 @@ search: false
   background: #f7fafc;
 }
 
-.sidebar-widget {
-  margin-top: 1.5rem;
+.sidebar-visitor-map {
+  width: 170px;
+  max-width: 100%;
+  margin: 1.25rem auto 0;
 }
 
-.sidebar-widget__title {
-  margin-bottom: 0.75rem;
-  font-size: 0.95rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.sidebar-widget__body {
-  padding: 0.7rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: #fff;
+.sidebar-visitor-map__frame {
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
 }
 
-.sidebar-visitor-map .sidebar-widget__body {
-  min-height: 220px;
-  display: flex;
-  justify-content: center;
-}
-
-.sidebar-visitor-map iframe,
-.sidebar-visitor-map canvas,
-.sidebar-visitor-map img {
+.sidebar-visitor-map__frame iframe,
+.sidebar-visitor-map__frame canvas,
+.sidebar-visitor-map__frame img {
   max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 600px) {
