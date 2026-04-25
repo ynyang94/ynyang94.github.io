@@ -19,7 +19,7 @@ Furthermore, I am interested in emerging topics such as system-aware optimizatio
 
 
 ## 📄First-author Papers
-*Provably eﬃcient stochastic distributionally-robust multi-objective optimization*,submitted;
+*Provably efficient stochastic distributionally-robust multi-objective optimization*,submitted;
 
 *Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[[arXiv](https://arxiv.org/abs/2503.22923)\], \[[code](https://github.com/ynyang94/GeneralSinkhorn-Regularized-DRO)\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024 \[[poster](https://ynyang94.github.io/my_presentation/NIPS_workshop_poster-2.pdf)\].
 
