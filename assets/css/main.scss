@@ -43,6 +43,27 @@ textarea,
   margin-top: 0.55rem;
 }
 
+.publication-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+  list-style-type: square;
+}
+
+.publication-list li + li {
+  margin-top: 0.85rem;
+}
+
+.publication-title {
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.publication-meta {
+  margin-top: 0.1rem;
+  color: #222;
+  line-height: 1.35;
+}
+
 .experience-chart {
   margin: 0.5rem 0 1.5rem;
   border-left: 3px solid #2f7dbd;

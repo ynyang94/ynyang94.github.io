@@ -19,8 +19,30 @@ Furthermore, I am interested in emerging topics such as system-aware optimizatio
 
 
 ## 📄First-author Papers
-Y Yang, F Zhuo, Z Chen, H Huang and Y Zhou; *Provably efficient stochastic distributionally-robust multi-objective optimization*,submitted;
-
-Y Yang, Y Zhou and Z Lu; *Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[[arXiv](https://arxiv.org/abs/2503.22923)\], \[[code](https://github.com/ynyang94/GeneralSinkhorn-Regularized-DRO)\],Submitted to JMLR; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024 \[[poster](https://ynyang94.github.io/my_presentation/NIPS_workshop_poster-2.pdf)\].
-
-Y Yang, E Tripp, Y Sun, S Zou and Y Zhou*Adaptive Gradient Normalization and Independent Sampling for (Stochastic) Generalized-Smooth Optimization*\[[arxiv](https://arxiv.org/abs/2410.14054)\], \[[code](https://github.com/ynyang94/Gensmooth-IAN-SGD)\], \[[slides](https://ynyang94.github.io/my_presentation/ICCOPT2025_IAN_SGD-6.pdf)\], TMLR.
+<ul class="publication-list">
+  <li>
+    <span class="publication-title">Provably efficient stochastic distributionally-robust multi-objective optimization</span>
+    <div class="publication-meta">
+      Y. Yang, F. Zhuo, Z. Chen, H. Huang and Y. Zhou, <em>submitted</em>.
+    </div>
+  </li>
+  <li>
+    <a class="publication-title" href="https://arxiv.org/abs/2503.22923">Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization</a>
+    [<a href="https://arxiv.org/abs/2503.22923">arXiv</a>]
+    [<a href="https://github.com/ynyang94/GeneralSinkhorn-Regularized-DRO">code</a>]
+    [<a href="https://openreview.net/pdf?id=qdxx8cqu80">short version</a>]
+    [<a href="https://ynyang94.github.io/my_presentation/NIPS_workshop_poster-2.pdf">poster</a>]
+    <div class="publication-meta">
+      Y. Yang, Y. Zhou and Z. Lu, <em>submitted to JMLR</em>; short version accepted at OPT Workshop, NeurIPS 2024.
+    </div>
+  </li>
+  <li>
+    <a class="publication-title" href="https://arxiv.org/abs/2410.14054">Adaptive Gradient Normalization and Independent Sampling for (Stochastic) Generalized-Smooth Optimization</a>
+    [<a href="https://arxiv.org/abs/2410.14054">arXiv</a>]
+    [<a href="https://github.com/ynyang94/Gensmooth-IAN-SGD">code</a>]
+    [<a href="https://ynyang94.github.io/my_presentation/ICCOPT2025_IAN_SGD-6.pdf">slides</a>]
+    <div class="publication-meta">
+      Y. Yang, E. Tripp, Y. Sun, S. Zou and Y. Zhou, <em>TMLR</em>.
+    </div>
+  </li>
+</ul>
