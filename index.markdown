@@ -18,7 +18,9 @@ Furthermore, I am interested in emerging topics such as system-aware optimizatio
 <span style="color:red;"> **I’m actively looking for AI research scientist/engineer position internship starting at 26/27 summer**. Here is my brief [CV](https://ynyang94.github.io/my_presentation/YufengYang_short_CV.pdf).</span>
 
 
-## 📄Papers
+## 📄First-author Papers
+*Provably eﬃcient stochastic distributionally-robust multi-objective optimization*,submitted;
+
 *Nested SGD for Sinkhorn distance-regularized Distributionally Robust Optimization*\[[arXiv](https://arxiv.org/abs/2503.22923)\], \[[code](https://github.com/ynyang94/GeneralSinkhorn-Regularized-DRO)\],Submitted; \[[short version](https://openreview.net/pdf?id=qdxx8cqu80)\] accepted at OPT workshop, Neurips 2024 \[[poster](https://ynyang94.github.io/my_presentation/NIPS_workshop_poster-2.pdf)\].
 
 *Adaptive Gradient Normalization and Independent Sampling for (Stochastic) Generalized-Smooth Optimization*\[[arxiv](https://arxiv.org/abs/2410.14054)\], \[[code](https://github.com/ynyang94/Gensmooth-IAN-SGD)\], \[[slides](https://ynyang94.github.io/my_presentation/ICCOPT2025_IAN_SGD-6.pdf)\], TMLR.
