@@ -91,4 +91,4 @@ show_visitor_map: true
   </div>
 </div>
 
-Prior to university, I grew up and finished my elementary education in Jiayuguan(嘉峪关), a small town in Gansu Province located near the starting point of the Great Wall. In my spare time, I go hiking and self-driving. I love Hip-hop/R&B/Kpop/House music. Occasionally, I read some paragraphs from Yangming Wang(王阳明). Sentence like “躲天意，避因果，诸般枷锁困真我；顺天意，承因果，今日方知我是我；一朝悟道见真我，何惧昔日旧枷锁，世间枷锁本是梦，无形无相亦无我” makes me stay peaceful. I write my thoughts on WeChat Account: 热依木的三味书屋 with pen name Abdurrahim Amin(Ugyhur:ئابدۇرەھىم ئەمىن).
+Prior to university, I grew up and finished my elementary education in Jiayuguan(嘉峪关), a small town in Gansu Province located near the starting point of the Great Wall.
