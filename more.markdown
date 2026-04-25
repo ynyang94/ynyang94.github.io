@@ -19,12 +19,16 @@ show_visitor_map: true
 </div>
 
 ## Academic Services
--- Conference: AISTATS\
--- Journal Reviewer: IEEE TSP; IEEE TPAMI; Journal of Combinatorial Optimization;\
--- Workshop Reviewer: NeurIPS-OPT workshop
+<ul class="detail-list">
+  <li>Conference: AISTATS</li>
+  <li>Journal Reviewer: IEEE TSP; IEEE TPAMI; Journal of Combinatorial Optimization</li>
+  <li>Workshop Reviewer: NeurIPS-OPT workshop</li>
+</ul>
 
 ## Teaching
--- At Rice: ELEC241, Fundamentals of Electrical Engineering I (Role: Grader).
+<ul class="detail-list">
+  <li>At Rice: ELEC241, Fundamentals of Electrical Engineering I (Role: Grader)</li>
+</ul>
 
 ## Industry Experience
 <div class="experience-chart">
@@ -38,12 +42,35 @@ show_visitor_map: true
 </div>
 
 ## 📚Education
--- **Ph.D.** in Computer Science, Texas A&M University, 2024-now
-
--- **Ph.D.** (Transfer Out) in Electrical Engineering, University of Utah, 2023-2024
-
--- **M.S.** in Computational Science and Engineering, Rice University, 2021-2023
-
--- **B.S.** in Applied Math (SSE), Chinese University of Hong Kong (Shenzhen), 2017-2021
+<div class="experience-chart">
+  <div class="experience-chart__row">
+    <div class="experience-chart__period">2024-now</div>
+    <div class="experience-chart__content">
+      <strong>Ph.D. in Computer Science</strong><br>
+      Texas A&amp;M University
+    </div>
+  </div>
+  <div class="experience-chart__row">
+    <div class="experience-chart__period">2023-2024</div>
+    <div class="experience-chart__content">
+      <strong>Ph.D. (Transfer Out) in Electrical Engineering</strong><br>
+      University of Utah
+    </div>
+  </div>
+  <div class="experience-chart__row">
+    <div class="experience-chart__period">2021-2023</div>
+    <div class="experience-chart__content">
+      <strong>M.S. in Computational Science and Engineering</strong><br>
+      Rice University
+    </div>
+  </div>
+  <div class="experience-chart__row">
+    <div class="experience-chart__period">2017-2021</div>
+    <div class="experience-chart__content">
+      <strong>B.S. in Applied Math (SSE)</strong><br>
+      Chinese University of Hong Kong (Shenzhen)
+    </div>
+  </div>
+</div>
 
 Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall.
