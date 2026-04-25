@@ -20,23 +20,41 @@ show_visitor_map: true
 
 ## Academic Services
 <ul class="detail-list">
-  <li>Conference: AISTATS</li>
+  <li>Conference Reviewer: AISTATS</li>
   <li>Journal Reviewer: IEEE TSP; IEEE TPAMI; Journal of Combinatorial Optimization</li>
   <li>Workshop Reviewer: NeurIPS-OPT workshop</li>
 </ul>
 
 ## Teaching
 <ul class="detail-list">
-  <li>At Rice: ELEC241, Fundamentals of Electrical Engineering I (Role: Grader)</li>
+  <li>At Rice: ELEC241, Fundamentals of Electrical Engineering I </li>
 </ul>
 
 ## Industry Experience
 <div class="experience-chart">
   <div class="experience-chart__row">
+    <div class="experience-chart__period">Summer 2026</div>
+    <div class="experience-chart__content">
+      <strong>Research Intern, Futurewei Technology</strong><br>
+      TBD
+    </div>
+  </div>
+</div>
+<div class="experience-chart">
+  <div class="experience-chart__row">
     <div class="experience-chart__period">Summer 2024</div>
     <div class="experience-chart__content">
-      <strong>Air Force Research Laboratory (AFRL)</strong><br>
-      Supported collaborative research on large-scale optimization and robust machine learning during summer 2024.
+      <strong>PhD contractor Intern, Air Force Research Laboratory (AFRL)</strong><br>
+      Supported collaborative research on developing adaptive normalization methods, published in TMLR.
+    </div>
+  </div>
+</div>
+<div class="experience-chart">
+  <div class="experience-chart__row">
+    <div class="experience-chart__period">2020-2021</div>
+    <div class="experience-chart__content">
+      <strong>Undergrad RA, AIRS(Shenzhen)</strong><br>
+      Collaborative research on developing Deep Learning models for anomaly detection.
     </div>
   </div>
 </div>
@@ -67,10 +85,10 @@ show_visitor_map: true
   <div class="experience-chart__row">
     <div class="experience-chart__period">2017-2021</div>
     <div class="experience-chart__content">
-      <strong>B.S. in Applied Math (SSE)</strong><br>
+      <strong>B.S. in Applied Math </strong><br>
       Chinese University of Hong Kong (Shenzhen)
     </div>
   </div>
 </div>
 
-Prior to university, I grew up and finished my elementary education in Jiayuguan, a small town in Gansu Province, China, located near the western starting point of the Great Wall.
+Prior to university, I grew up and finished my elementary education in Jiayuguan(嘉峪关), a small town in Gansu Province located near the starting point of the Great Wall. In my spare time, I go hiking and self-driving. I love Hip-hop/R&B/Kpop/House music. Occasionally, I read some paragraphs from Yangming Wang(王阳明). Sentence like “躲天意，避因果，诸般枷锁困真我；顺天意，承因果，今日方知我是我；一朝悟道见真我，何惧昔日旧枷锁，世间枷锁本是梦，无形无相亦无我” makes me stay peaceful. I write my thoughts on WeChat Account: 热依木的三味书屋 with my pen name Abdurahim Amin(Ugyhur:ئابدۇرەھىم ئەمىن).
