@@ -15,7 +15,7 @@ Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a thir
 ## 📄First-author Papers
 <ul class="publication-list">
   <li>
-    <span class="publication-title href="https://arxiv.org/abs/2605.05660">Distributionally-robust multi-objective optimization</span>
+    <span class="publication-title" href="https://arxiv.org/abs/2605.05660">Distributionally-robust multi-objective optimization</span>
 	[<a href="https://arxiv.org/abs/2605.05660">arXiv</a>]
     <div class="publication-meta">
       Y. Yang, F. Zhuo, Z. Chen, H. Huang and Y. Zhou, <em>submitted</em>.
