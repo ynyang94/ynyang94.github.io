@@ -90,5 +90,4 @@ show_visitor_map: true
     </div>
   </div>
 </div>
-
-Prior to university, I grew up and finished my elementary education in Jiayuguan(嘉峪关), a small town in Gansu Province located near the starting point of the Great Wall.
+Prior to university, I finished my elementary education in Jiayuguan.
