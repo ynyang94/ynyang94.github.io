@@ -40,8 +40,8 @@ show_author: true
 author:
   name: "Yufeng Yang"
   avatar: "/assets/images/Yufeng_Profile.png"
-  bio: "PhD Student at Texas A&M University<br>静处体悟，事上磨炼。"
-  location: "Peterson Building, 345"
+  bio: "PhD Student at Texas A&M University<br>"
+  location: "Peterson 345"
   email: "yufeng.yang@tamu.edu"
   links:
     - label: "X"
