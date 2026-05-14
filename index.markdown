@@ -5,7 +5,7 @@ author_profile: true
 show_visitor_map: true
 ---
 ## About Me
-Howdy! My name is Yufeng Yang (杨钰峰 ,pronounced as u-feng iang). I'm a third year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). I leverage **foundational ML principles** to address the computational and algorithmic challenges arising from **large-scale machine learning**.
+Howdy! My name is Yufeng Yang (杨钰峰). I'm a third year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). I leverage **foundational ML principles** to address the computational and algorithmic challenges arising from **large-scale machine learning**.
 
 <span style="color:red">**(Open for Collaboration)**</span> If you believe our research interests align and want to collaborate with me. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
