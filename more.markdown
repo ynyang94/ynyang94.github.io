@@ -90,4 +90,3 @@ show_visitor_map: true
     </div>
   </div>
 </div>
-Prior to university, I finished my elementary education in Jiayuguan.
