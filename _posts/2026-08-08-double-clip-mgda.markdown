@@ -26,7 +26,7 @@ header:
   <img src="{{ '/assets/images/double-clip-mgda-social.jpg' | relative_url }}" width="1200" height="630" decoding="async" alt="Double-Clip MGDA: balanced gradients pass through two clipping gates before branching to model and preference updates.">
 </figure>
 
-<p class="dc-lede">The main idea is unexpectedly simple: clip the <em>balanced</em> gradients, then reuse the same clipping factors in the model, dual, and preference updates. That coupling is what turns a difficult distributionally robust MOO procedure into a single-loop method—and what lets the analysis dispense with double sampling.</p>
+<p class="dc-lede">The main idea is unexpectedly simple: clip the <em>balanced</em> gradients, then reuse the same clipping factors in the model, dual, and preference updates. That coupling removes the need for double sampling, which is required to yield a convergence guarantee for the MGDA-type method with a static batch size.</p>
 
 <div class="dc-paper-links">
   <span>From our paper</span>
@@ -122,7 +122,7 @@ When $X_tw_t=0$, take $\alpha_t=c_1$. The same balanced-gradient clip is used tw
 
 The usual stochastic MGDA preference step contains a one-batch Gram term such as $X_t^\top X_tw_t$. Because $\mathbb E[X_t^\top X_t]\ne(\mathbb E X_t)^\top(\mathbb E X_t)$, a standard bias-control device forms the product from two independent gradient batches. Double-Clip MGDA keeps one Gram estimate and controls its contribution instead. The proof is easiest to understand through two ideas.
 
-### 1. Decouple problem constants from the clipping mechanism
+### 1. Decouple problem constants from the clipping radius
 
 The caps $c_1,f_1$ and radii $c_2,f_2$ are explicit algorithmic controls; they are not hidden inside smoothness, variance, or gradient-bound constants. Because
 
