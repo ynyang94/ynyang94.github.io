@@ -194,7 +194,7 @@ That is why this is a genuinely multi-objective argument. In a single-objective 
   Algorithm 2 still uses a dual-gradient batch and then a fresh model-gradient batch because the updates are sequential. What disappears is the need for two independent copies of the same gradient matrix solely to form an unbiased Gram product in the preference update.
 </div>
 
-Under the paper's assumptions, this produces a single-loop method with $O(\epsilon^{-4})$ sample complexity, compared with $O(\epsilon^{-12})$ for the double-loop DR-MOO baseline. The theory uses batches of order $O(\epsilon^{-2})$; in the reported ablation, a batch size of 256 was already sufficient for stable behavior.
+Under the paper's assumptions, this produces a single-loop method with $O(\epsilon^{-4})$ sample complexity, matching the sample complexity that a stochastic first-order algorithm without variance reduction can achieve. The theory requires batch size of order $O(\epsilon^{-2})$; in the reported ablation, a batch size of 256 was already sufficient for stable behavior.
 
 ## Experimental results
 
