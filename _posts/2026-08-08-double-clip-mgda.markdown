@@ -212,57 +212,33 @@ Under the paper's assumptions, this produces a single-loop method with $O(\epsil
 
 We used a pretrained ResNet-18 encoder with task-specific MLP heads, cross-entropy loss, and the dual of a $\chi^2$-divergence robust objective. Every baseline optimized the same dual DR-MOO formulation, with its hyperparameters tuned.
 
-On Multi-MNIST, Double-Clip MGDA achieved the best accuracy at every reported FGSM attack level for both the two-digit and three-digit settings. The gap was especially visible under the strongest three-digit attack:
+### Multi-MNIST: test accuracy under FGSM attack
 
-<div class="dc-results">
-  <div class="dc-result">
-    <span class="dc-result__eyebrow">Multi-MNIST, 2 digits</span>
-    <strong>57.13%</strong>
-    <span>accuracy at attack level 0.08</span>
-    <small>vs. 56.43% for the strongest baseline, MoCo</small>
-  </div>
-  <div class="dc-result dc-result--primary">
-    <span class="dc-result__eyebrow">Multi-MNIST, 3 digits</span>
-    <strong>86.65%</strong>
-    <span>accuracy at attack level 0.08</span>
-    <small>vs. 83.43% for MoCo: +3.22 points</small>
-  </div>
-</div>
-
-### Multi-MNIST: robustness to FGSM attacks
-
-The complete reported comparison is below. All entries are test accuracy in percent.
+The table below reports the accuracy values from Table 1 of the paper without additional aggregation or interpretation.
 
 <div class="dc-table-wrap">
-  <table class="dc-results-table">
-    <caption>Multi-MNIST, 2 digits (70 epochs)</caption>
-    <thead><tr><th>Method</th><th>Clean</th><th>0.01</th><th>0.03</th><th>0.05</th><th>0.08</th></tr></thead>
+  <table class="dc-results-table dc-results-table--wide">
+    <caption>Table 1: Test Accuracy under FGSM attack (%)</caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Method / Attack Level</th>
+        <th colspan="5">Multi-MNIST 2-digits (70-epochs training)</th>
+        <th colspan="5">Multi-MNIST 3-digits (100-epochs training)</th>
+      </tr>
+      <tr>
+        <th>0.00</th><th>0.01</th><th>0.03</th><th>0.05</th><th>0.08</th>
+        <th>0.00</th><th>0.01</th><th>0.03</th><th>0.05</th><th>0.08</th>
+      </tr>
+    </thead>
     <tbody>
-      <tr class="dc-results-table__primary"><th>Double-Clip MGDA</th><td>95.66</td><td>83.48</td><td>65.95</td><td>60.40</td><td>57.13</td></tr>
-      <tr><th>Double-Loop MGDA</th><td>92.80</td><td>72.81</td><td>57.71</td><td>54.49</td><td>51.63</td></tr>
-      <tr><th>MoCo</th><td>94.49</td><td>77.69</td><td>61.74</td><td>58.63</td><td>56.43</td></tr>
-      <tr><th>NashMTL</th><td>91.21</td><td>62.58</td><td>51.67</td><td>49.54</td><td>47.09</td></tr>
-      <tr><th>FAMO</th><td>89.05</td><td>61.04</td><td>50.82</td><td>48.66</td><td>46.48</td></tr>
-      <tr><th>SDMGrad</th><td>89.59</td><td>64.02</td><td>52.00</td><td>49.91</td><td>47.31</td></tr>
-      <tr><th>MoDo</th><td>91.10</td><td>64.08</td><td>51.95</td><td>49.73</td><td>47.49</td></tr>
-      <tr><th>MGDA</th><td>89.44</td><td>62.61</td><td>52.19</td><td>50.81</td><td>48.30</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="dc-table-wrap">
-  <table class="dc-results-table">
-    <caption>Multi-MNIST, 3 digits (100 epochs)</caption>
-    <thead><tr><th>Method</th><th>Clean</th><th>0.01</th><th>0.03</th><th>0.05</th><th>0.08</th></tr></thead>
-    <tbody>
-      <tr class="dc-results-table__primary"><th>Double-Clip MGDA</th><td>98.76</td><td>97.59</td><td>94.40</td><td>91.05</td><td>86.65</td></tr>
-      <tr><th>Double-Loop MGDA</th><td>97.49</td><td>95.38</td><td>89.99</td><td>85.25</td><td>79.88</td></tr>
-      <tr><th>MoCo</th><td>98.27</td><td>96.62</td><td>92.75</td><td>88.75</td><td>83.43</td></tr>
-      <tr><th>NashMTL</th><td>96.17</td><td>92.31</td><td>84.53</td><td>78.91</td><td>73.48</td></tr>
-      <tr><th>FAMO</th><td>95.90</td><td>91.86</td><td>84.29</td><td>78.94</td><td>73.52</td></tr>
-      <tr><th>SDMGrad</th><td>96.46</td><td>92.89</td><td>85.06</td><td>79.37</td><td>73.50</td></tr>
-      <tr><th>MoDo</th><td>96.50</td><td>93.15</td><td>86.03</td><td>80.56</td><td>74.81</td></tr>
-      <tr><th>MGDA</th><td>96.34</td><td>92.85</td><td>85.42</td><td>80.26</td><td>75.18</td></tr>
+      <tr><th><strong>Double-Clip MGDA</strong></th><td><strong>95.66%</strong></td><td><strong>83.48%</strong></td><td><strong>65.95%</strong></td><td><strong>60.40%</strong></td><td><strong>57.13%</strong></td><td><strong>98.76%</strong></td><td><strong>97.59%</strong></td><td><strong>94.40%</strong></td><td><strong>91.05%</strong></td><td><strong>86.65%</strong></td></tr>
+      <tr><th>Double-loop MGDA</th><td>92.80%</td><td>72.81%</td><td>57.71%</td><td>54.49%</td><td>51.63%</td><td>97.49%</td><td>95.38%</td><td>89.99%</td><td>85.25%</td><td>79.88%</td></tr>
+      <tr><th>MoCo</th><td>94.49%</td><td>77.69%</td><td>61.74%</td><td>58.63%</td><td>56.43%</td><td>98.27%</td><td>96.62%</td><td>92.75%</td><td>88.75%</td><td>83.43%</td></tr>
+      <tr><th>NashMTL</th><td>91.21%</td><td>62.58%</td><td>51.67%</td><td>49.54%</td><td>47.09%</td><td>96.17%</td><td>92.31%</td><td>84.53%</td><td>78.91%</td><td>73.48%</td></tr>
+      <tr><th>FAMO</th><td>89.05%</td><td>61.04%</td><td>50.82%</td><td>48.66%</td><td>46.48%</td><td>95.90%</td><td>91.86%</td><td>84.29%</td><td>78.94%</td><td>73.52%</td></tr>
+      <tr><th>SDMGrad</th><td>89.59%</td><td>64.02%</td><td>52.00%</td><td>49.91%</td><td>47.31%</td><td>96.46%</td><td>92.89%</td><td>85.06%</td><td>79.37%</td><td>73.50%</td></tr>
+      <tr><th>MoDo</th><td>91.10%</td><td>64.08%</td><td>51.95%</td><td>49.73%</td><td>47.49%</td><td>96.50%</td><td>93.15%</td><td>86.03%</td><td>80.56%</td><td>74.81%</td></tr>
+      <tr><th>MGDA</th><td>89.44%</td><td>62.61%</td><td>52.19%</td><td>50.81%</td><td>48.30%</td><td>96.34%</td><td>92.85%</td><td>85.42%</td><td>80.26%</td><td>75.18%</td></tr>
     </tbody>
   </table>
 </div>
