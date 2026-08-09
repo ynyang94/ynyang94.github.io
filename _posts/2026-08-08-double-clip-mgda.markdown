@@ -26,7 +26,7 @@ header:
   <img src="{{ '/assets/images/double-clip-mgda-social.jpg' | relative_url }}" width="1200" height="630" decoding="async" alt="Double-Clip MGDA: balanced gradients pass through two clipping gates before branching to model and preference updates.">
 </figure>
 
-<p class="dc-lede">The main idea is unexpectedly simple: clip the <em>balanced</em> gradients, then reuse the same clipping factors in the model, dual, and preference updates. That coupling removes the need for double sampling, which is required to yield a convergence guarantee for the MGDA-type method with a static batch size.</p>
+<p class="dc-lede">The main idea is unexpectedly simple: clip the <em>balanced</em> gradients, then reuse the same clipping factors in the model, dual, and preference updates. That coupling removes the need for double sampling, a bias-control strategy used to obtain convergence guarantees for stochastic MGDA-type methods with static batch sizes (<a href="https://jmlr.org/papers/v25/23-1287.html">Chen et al., 2024</a>; <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/0e5b96f97c1813bb75f6c28532c2ecc7-Abstract-Conference.html">Xiao et al., 2023</a>).</p>
 
 <div class="dc-paper-links">
   <span>From our paper</span>
@@ -260,9 +260,13 @@ The synthetic linear-regression and white-wine logistic-regression studies tell 
 
 ## References
 
-1. Qi Zhang, Yi Zhou, Simon Khan, Ashley Prater-Bennette, Lixin Shen, and Shaofeng Zou. [“Revisiting Large-Scale Non-Convex Distributionally Robust Optimization.”](https://openreview.net/forum?id=JYwVijuNA7) *International Conference on Learning Representations*, 2025.
+1. Lisha Chen, Heshan Fernando, Yiming Ying, and Tianyi Chen. [“Three-Way Trade-Off in Multi-Objective Learning: Optimization, Generalization and Conflict-Avoidance.”](https://jmlr.org/papers/v25/23-1287.html) *Journal of Machine Learning Research* 25(193), 1–53, 2024.
 
-2. Yossi Arjevani, Yair Carmon, John C. Duchi, Dylan J. Foster, Nathan Srebro, and Blake Woodworth. [“Lower Bounds for Non-Convex Stochastic Optimization.”](https://doi.org/10.1007/s10107-022-01822-7) *Mathematical Programming* 199, 165–214, 2023.
+2. Peiyao Xiao, Hao Ban, and Kaiyi Ji. [“Direction-Oriented Multi-Objective Learning: Simple and Provable Stochastic Algorithms.”](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0e5b96f97c1813bb75f6c28532c2ecc7-Abstract-Conference.html) *Advances in Neural Information Processing Systems* 36, 4509–4533, 2023.
+
+3. Qi Zhang, Yi Zhou, Simon Khan, Ashley Prater-Bennette, Lixin Shen, and Shaofeng Zou. [“Revisiting Large-Scale Non-Convex Distributionally Robust Optimization.”](https://openreview.net/forum?id=JYwVijuNA7) *International Conference on Learning Representations*, 2025.
+
+4. Yossi Arjevani, Yair Carmon, John C. Duchi, Dylan J. Foster, Nathan Srebro, and Blake Woodworth. [“Lower Bounds for Non-Convex Stochastic Optimization.”](https://doi.org/10.1007/s10107-022-01822-7) *Mathematical Programming* 199, 165–214, 2023.
 
 ## More benchmarks are coming
 
