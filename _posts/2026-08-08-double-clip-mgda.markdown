@@ -104,35 +104,29 @@ Finally, $\Pi_{\mathcal W}$ projects the result back to the simplex, keeping the
 The mechanism is not restricted to DRO. Suppose we have ordinary stochastic objectives collected in the vector $\mathbf F(\theta)$, and let
 
 $$
-G_t=[g_{1,t},\ldots,g_{m,t}] \in \mathbb R^{d\times m}
+X_t=[g_{1,t},\ldots,g_{m,t}] \in \mathbb R^{d\times m}
 $$
 
-be their stochastic gradient matrix. Remove the DRO branch by fixing $\eta_t\equiv0$, $\mu_t\equiv0$, and $Z_t\equiv0$. The resulting primal-only template is:
+be their stochastic gradient matrix. Starting from Algorithm 2, delete the dual variable $\eta_t$, the dual-gradient matrix $Z_t$, the clipping factor $\mu_t$, and every update involving them. Nothing else needs to change:
 
-<div class="dc-generic">
-  <div>
-    <span class="dc-generic__label">Balanced direction</span>
-    $q_t=G_tw_t$
-  </div>
-  <div>
-    <span class="dc-generic__label">Clip once</span>
-    $a_t=\min\{c_1,c_2/\lVert q_t\rVert\}$
-  </div>
-  <div>
-    <span class="dc-generic__label">Model update</span>
-    $\theta_{t+1}=\theta_t-\gamma a_tq_t$
-  </div>
-  <div>
-    <span class="dc-generic__label">Preference update</span>
-    $w_{t+1}=\Pi_{\mathcal W}[w_t-\beta(a_tG_t^\top q_t+\rho w_t)]$
+<div class="paper-algorithm" role="group" aria-label="Generic Double-Clip MGDA without dual variables">
+  <div class="paper-algorithm__title"><strong>Generic framework:</strong> Double-Clip MGDA without dual variables</div>
+  <div class="paper-algorithm__body">
+    <div class="paper-algorithm__row"><span>1:</span><div>Initialize $\theta_0$, $w_0$, $\rho$, $\beta$, $\gamma$.</div></div>
+    <div class="paper-algorithm__row"><span>2:</span><div><strong>Clipping rule:</strong> $\alpha_t=\min\!\left\{c_1,\frac{c_2}{\lVert X_tw_t\rVert}\right\}$.</div></div>
+    <div class="paper-algorithm__row"><span>3:</span><div><strong>for</strong> $t=0,\ldots,T-1$ <strong>do</strong></div></div>
+    <div class="paper-algorithm__row paper-algorithm__row--indent"><span>4:</span><div>Evaluate $X_t=\nabla_\theta\widehat{\mathbf F}(\theta_t;\{\xi_t\}_B)$ with $B=N_1$.</div></div>
+    <div class="paper-algorithm__row paper-algorithm__row--indent"><span>5:</span><div>$\theta_{t+1}=\theta_t-\gamma\alpha_tX_tw_t$.</div></div>
+    <div class="paper-algorithm__row paper-algorithm__row--indent"><span>6:</span><div>$w_{t+1}=\Pi_{\mathcal W}\!\left[w_t-\beta\!\left(\alpha_tX_t^\top X_tw_t+\rho w_t\right)\right]$.</div></div>
+    <div class="paper-algorithm__row"><span>7:</span><div><strong>end for</strong></div></div>
   </div>
 </div>
 
-When $q_t=0$, take $a_t=c_1$. The same balanced-gradient clip is used twice: once to bound the model step and once to scale the preference update. This is the most portable version of the idea. It does not need a dual variable; it only needs the gradient matrix, a simplex preference vector, and a clipping rule built from the balanced direction rather than from each task gradient independently.
+When $X_tw_t=0$, take $\alpha_t=c_1$. The same balanced-gradient clip is used twice: once in the model update and once in the preference-vector update. This primal-only framework is therefore Algorithm 2 with all dual-variable components removed.
 
 ## Proof intuition: why coupled clipping works
 
-The usual stochastic MGDA preference step contains a one-batch Gram term such as $G_t^\top G_tw_t$. Because $\mathbb E[G_t^\top G_t]\ne(\mathbb E G_t)^\top(\mathbb E G_t)$, a standard bias-control device forms the product from two independent gradient batches. Double-Clip MGDA keeps one Gram estimate and controls its contribution instead. The proof is easiest to understand through two ideas.
+The usual stochastic MGDA preference step contains a one-batch Gram term such as $X_t^\top X_tw_t$. Because $\mathbb E[X_t^\top X_t]\ne(\mathbb E X_t)^\top(\mathbb E X_t)$, a standard bias-control device forms the product from two independent gradient batches. Double-Clip MGDA keeps one Gram estimate and controls its contribution instead. The proof is easiest to understand through two ideas.
 
 ### 1. Decouple problem constants from the clipping mechanism
 
