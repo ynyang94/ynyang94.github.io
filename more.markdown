@@ -1,9 +1,8 @@
 ---
 layout: single
-title: "More"
+title: "More About Me"
 permalink: /more/
 author_profile: true
-show_visitor_map: true
 ---
 ## Activities
 <div class="activity-window">

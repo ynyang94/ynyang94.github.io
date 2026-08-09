@@ -1,7 +1,4 @@
-{% if page.show_visitor_map %}
-  <section class="sidebar-visitor-map" aria-label="Visitor map">
-    <div class="sidebar-visitor-map__frame">
-      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Mn46VZvuelQyX06Ut7_UBUIgSG5O9ztIhNIRwUwdmhU&cl=ffffff&w=a"></script>
-    </div>
-  </section>
-{% endif %}
+{%- comment -%}
+Reserved for lightweight sidebar additions. The former third-party visitor-map
+script was removed because its network request could block page completion.
+{%- endcomment -%}
