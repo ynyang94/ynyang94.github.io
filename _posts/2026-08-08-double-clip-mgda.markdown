@@ -71,6 +71,8 @@ $$
 
 This is not an inner optimization loop. It is one dual step per outer iteration. Objectives with larger current preference receive proportionally more influence through $w_t$, while clipping prevents an unstable dual direction from dominating the dynamics.
 
+This dual-first clipped update is a direct generalization of the single-objective D-SGD-C design of [Zhang et al. (2025)](https://openreview.net/forum?id=JYwVijuNA7) to preference-weighted multi-objective dynamics. We refer interested readers to that paper for the single-objective proof intuition and to [Corollaries K.6–K.8 of our paper](https://arxiv.org/pdf/2605.05660) for the corresponding multi-objective generalization along the sequential trajectory.
+
 ### Lines 6–7: use the new dual state to update the model
 
 Only after computing $\eta_{t+1}$ do we evaluate $X_t$. In other words, the model gradient is measured at $(\theta_t,\eta_{t+1})$, not at the stale dual state. This sequential, Gauss-Seidel-like order is important: the model immediately responds to the latest approximation of each objective's adverse distribution.
@@ -194,7 +196,7 @@ That is why this is a genuinely multi-objective argument. In a single-objective 
   Algorithm 2 still uses a dual-gradient batch and then a fresh model-gradient batch because the updates are sequential. What disappears is the need for two independent copies of the same gradient matrix solely to form an unbiased Gram product in the preference update.
 </div>
 
-Under the paper's assumptions, this produces a single-loop method with $O(\epsilon^{-4})$ sample complexity, matching the sample complexity that a stochastic first-order algorithm without variance reduction can achieve. The theory requires batch size of order $O(\epsilon^{-2})$; in the reported ablation, a batch size of 256 was already sufficient for stable behavior.
+Under the paper's assumptions, this produces a single-loop method with $O(\epsilon^{-4})$ sample complexity, matching the sample complexity that a stochastic first-order algorithm without variance reduction can achieve [Arjevani et al. (2023)](https://doi.org/10.1007/s10107-022-01822-7). The theory requires batch size of order $O(\epsilon^{-2})$; in the reported ablation, a batch size of 256 was already sufficient for stable behavior.
 
 ## Experimental results
 
@@ -256,11 +258,17 @@ Double-Clip MGDA also led every aggregate metric on CelebA. All entries are perc
 
 The synthetic linear-regression and white-wine logistic-regression studies tell a complementary story: both proposed methods were competitive in balanced-gradient convergence, while Double-Clip avoided the expensive inner loop. The batch-size ablation also showed the practical trade-off predicted by the theory—small batches fluctuated, and the instability became negligible around batch size 256.
 
+## References
+
+1. Qi Zhang, Yi Zhou, Simon Khan, Ashley Prater-Bennette, Lixin Shen, and Shaofeng Zou. [“Revisiting Large-Scale Non-Convex Distributionally Robust Optimization.”](https://openreview.net/forum?id=JYwVijuNA7) *International Conference on Learning Representations*, 2025.
+
+2. Yossi Arjevani, Yair Carmon, John C. Duchi, Dylan J. Foster, Nathan Srebro, and Blake Woodworth. [“Lower Bounds for Non-Convex Stochastic Optimization.”](https://doi.org/10.1007/s10107-022-01822-7) *Mathematical Programming* 199, 165–214, 2023.
+
 ## More benchmarks are coming
 
 These results are the first benchmark suite, not the last. We plan to add broader datasets, architectures, objectives, and stronger MOO baselines as we continue studying the algorithm. The especially interesting question is whether the primal-only form above can provide the same stability benefits outside distributionally robust objectives.
 
-If you use Double-Clip MGDA—or build a new method from its balanced-gradient clipping idea—please cite our paper:
+If you use Double-Clip MGDA, or build a new MOO method from its balanced-gradient clipping idea, please cite our paper:
 
 <div class="dc-citation" markdown="1">
 **Yufeng Yang, Fangning Zhuo, Ziyi Chen, Heng Huang, and Yi Zhou.**<br>
