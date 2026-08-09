@@ -101,21 +101,15 @@ Finally, $\Pi_{\mathcal W}$ projects the result back to the simplex, keeping the
 
 ## The generic form: no dual variable required
 
-The mechanism is not restricted to DRO. Suppose we have ordinary stochastic objectives collected in the vector $\mathbf F(\theta)$, and let
-
-$$
-X_t=[g_{1,t},\ldots,g_{m,t}] \in \mathbb R^{d\times m}
-$$
-
-be their stochastic gradient matrix. Starting from Algorithm 2, delete the dual variable $\eta_t$, the dual-gradient matrix $Z_t$, the clipping factor $\mu_t$, and every update involving them. Nothing else needs to change:
+The mechanism is not restricted to DRO. For ordinary stochastic objectives collected in the vector $\mathbf F(\theta)$, start from Algorithm 2 and delete the dual variable $\eta_t$, the dual-gradient matrix $Z_t$, the clipping factor $\mu_t$, and every update involving them. The entire generic method can then be written as one algorithm:
 
 <div class="paper-algorithm" role="group" aria-label="Generic Double-Clip MGDA without dual variables">
-  <div class="paper-algorithm__title"><strong>Generic framework:</strong> Double-Clip MGDA without dual variables</div>
+  <div class="paper-algorithm__title"><strong>Algorithm 3:</strong> Generic Double-Clip MGDA without dual variables</div>
   <div class="paper-algorithm__body">
     <div class="paper-algorithm__row"><span>1:</span><div>Initialize $\theta_0$, $w_0$, $\rho$, $\beta$, $\gamma$.</div></div>
-    <div class="paper-algorithm__row"><span>2:</span><div><strong>Clipping rule:</strong> $\alpha_t=\min\!\left\{c_1,\frac{c_2}{\lVert X_tw_t\rVert}\right\}$.</div></div>
-    <div class="paper-algorithm__row"><span>3:</span><div><strong>for</strong> $t=0,\ldots,T-1$ <strong>do</strong></div></div>
-    <div class="paper-algorithm__row paper-algorithm__row--indent"><span>4:</span><div>Evaluate $X_t=\nabla_\theta\widehat{\mathbf F}(\theta_t;\{\xi_t\}_B)$ with $B=N_1$.</div></div>
+    <div class="paper-algorithm__row"><span>2:</span><div><strong>for</strong> $t=0,\ldots,T-1$ <strong>do</strong></div></div>
+    <div class="paper-algorithm__row paper-algorithm__row--indent"><span>3:</span><div>Evaluate the stochastic gradient matrix $X_t=\nabla_\theta\widehat{\mathbf F}(\theta_t;\{\xi_t\}_B)=[g_{1,t},\ldots,g_{m,t}]$ with $B=N_1$.</div></div>
+    <div class="paper-algorithm__row paper-algorithm__row--indent"><span>4:</span><div>Set $\alpha_t=\min\!\left\{c_1,\frac{c_2}{\lVert X_tw_t\rVert}\right\}$.</div></div>
     <div class="paper-algorithm__row paper-algorithm__row--indent"><span>5:</span><div>$\theta_{t+1}=\theta_t-\gamma\alpha_tX_tw_t$.</div></div>
     <div class="paper-algorithm__row paper-algorithm__row--indent"><span>6:</span><div>$w_{t+1}=\Pi_{\mathcal W}\!\left[w_t-\beta\!\left(\alpha_tX_t^\top X_tw_t+\rho w_t\right)\right]$.</div></div>
     <div class="paper-algorithm__row"><span>7:</span><div><strong>end for</strong></div></div>
