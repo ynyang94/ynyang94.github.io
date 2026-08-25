@@ -8,7 +8,7 @@ Howdy! My name is Yufeng Yang (杨钰峰). I'm a third year PhD student at CSE d
 
 <span style="color:red">**(Open for Collaboration)**</span> If you believe our research interests align and want to collaborate with me. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
-<span style="color:red;"> **I’m actively looking for AI research scientist/engineer position internship starting at 27/28 full and part-time intern**. Here is my brief [CV](https://ynyang94.github.io/my_presentation/YufengYang_short_CV.pdf).</span>
+<span style="color:red;"> **I’m actively looking for AI/ML research/engineer internship starting at 27 Spring/Summer/Fall**. Here is my brief [CV](https://github.com/ynyang94/my_presentation/blob/master/Yufeng_Yang_Resume_New.pdf).</span>
 
 
 ## 📄First-author Papers
