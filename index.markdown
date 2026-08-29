@@ -10,7 +10,7 @@ Howdy! My name is Yufeng Yang (杨钰峰). I'm a third year PhD student at CSE d
 
 - Providing modelling/algorithmic solutions for DRO in areas like data curation, multi-objective alignment, and agentic systems.
 - Mechanistic understanding of how SGD and preconditioned variants interact with model structure and noisy/heavy-tailed training data.
-- Black-box optimization and RL algorithms with potential applications to AI for hardware design.
+- Black-box optimization and RL algorithms with potential applications to AI for hardware design/AI4Science.
 
 If you believe our research interests align and want to collaborate with me. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
 
