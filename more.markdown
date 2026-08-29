@@ -35,7 +35,7 @@ author_profile: true
     <div class="experience-chart__period">Summer 2026</div>
     <div class="experience-chart__content">
       <strong>Research Intern, Futurewei Technology</strong><br>
-      TBD
+      Analyzed the theoretical and empirical bounds of in-context learnability across targeted function classes, establishing how training dynamics shape Transformer adaptivity (manuscript in preparation).
     </div>
   </div>
 </div>
