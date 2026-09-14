@@ -4,7 +4,7 @@ title: ""
 author_profile: true
 ---
 ## About Me
-Howdy! My name is Yufeng Yang (杨钰峰). I'm a third year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). I leverage **foundational ML principles** to address the computational and algorithmic challenges arising from **large-scale machine learning applications**.
+Howdy! My name is Yufeng Yang (杨钰峰). I'm a forth year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). I leverage **foundational ML principles** to address the computational and algorithmic challenges arising from **large-scale machine learning applications**.
 
 <span style="color:red">**(Open for Collaboration)**</span> My past research focuses on bridging connections between data and training algorithm/pipeline design via a framework so-called **Distributionally Robust Optimization**. Recently, my interests span:
 
