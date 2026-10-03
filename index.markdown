@@ -11,7 +11,7 @@ Howdy! My name is Yufeng Yang (杨钰峰). I’m a fourth-year PhD student in th
 
 - Exploring DRO for addressing distribution shifts, with applications to data curation and preference alignment.
 - Understanding how the optimization dynamics and generalization of SGD and its preconditioned variants interact with model structure and noisy or heavy-tailed training data, and how optimizer design shapes in-context learning, continual learning, and implicit biases toward particular solutions.
-- Developing black-box optimization and reinforcement learning algorithms for hardware design, AI for Science, and recursive self-improvement.
+- Developing black-box optimization and reinforcement learning algorithms for agentic workflows, test-time training, and recursive self-improvement.
 
 Interested in collaborating? Email me at [yufeng.yang@tamu.edu](mailto:yufeng.yang@tamu.edu) or connect on WeChat: **ynyang94** (please include a brief introduction).
 
