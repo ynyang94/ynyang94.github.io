@@ -4,17 +4,18 @@ title: ""
 author_profile: true
 ---
 ## About Me
-Howdy! My name is Yufeng Yang (杨钰峰). I'm a fourth-year PhD student at CSE department, **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). I leverage **foundational ML principles** to address the computational and algorithmic challenges arising from **large-scale machine learning applications**.
 
-<span style="color:red">**(Open for Collaboration)**</span> My past research focuses on bridging connections between data and training algorithm/pipeline design via a framework so-called **Distributionally Robust Optimization**. Recently, my interests span:
+Howdy! My name is Yufeng Yang (杨钰峰). I’m a fourth-year PhD student in the Department of Computer Science and Engineering at **Texas A&M University**, advised by [Prof. Yi Zhou](https://sites.google.com/site/yizhouhomepage/home). With a background in applied and computational mathematics, I approach computational and algorithmic challenges in **large-scale machine learning** from **first principles**. My research on **Distributionally Robust Optimization (DRO)** has shaped my view that data distributions, structure, and representations should guide model architecture, optimizer design, and training paradigms.
 
-- Providing modelling/algorithmic solutions for DRO in areas like data curation, multi-objective alignment, and agentic systems.
-- Mechanistic understanding of how SGD and preconditioned variants interact with model structure and noisy/heavy-tailed training data.
-- Black-box optimization and RL algorithms with potential applications to AI for hardware design/AI4Science.
+<span style="color:red">**Open to Collaboration!**</span> My current interests include:
 
-If you believe our research interests align and want to collaborate with me. Feel free to drop me an email at [ynyang94@tamu.edu](mailto:nyyang94@tamu.edu) or add me on WeChat: **ynyang94** (please indicate your purpose when connecting).
+- Exploring DRO for addressing distribution shifts, with applications to data curation and preference alignment.
+- Understanding how the optimization dynamics and generalization of SGD and its preconditioned variants interact with model structure and noisy or heavy-tailed training data, and how optimizer design shapes in-context learning and implicit bias.
+- Developing black-box optimization and reinforcement learning algorithms for hardware design, AI for Science, and recursive self-improvement.
 
-<span style="color:red;"> **I’m actively looking for AI/ML research/engineer internship starting at 27 Spring/Summer/Fall; And I'm also Open to Full-time Roles starting May, 2028**. Here is my brief [CV](https://github.com/ynyang94/my_presentation/blob/master/Yufeng_Yang_Resume_New.pdf).</span>
+Interested in collaborating? Feel free to email me at [ynyang94@tamu.edu](mailto:ynyang94@tamu.edu) or connect on WeChat: **ynyang94** (please include a brief introduction).
+
+<span style="color:red;">**I’m actively seeking AI/ML research or engineering internships starting in Summer or Fall 2027.** Here is my [CV](https://github.com/ynyang94/my_presentation/blob/master/Yufeng_Yang_Resume_New.pdf).</span>
 
 
 ## 📄First-author Papers
